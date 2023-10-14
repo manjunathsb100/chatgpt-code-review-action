@@ -1,4 +1,4 @@
-name: OpenAI ChatGPT CodeReview
+name: OpenAI ChatGPT CodeReview 2023
 description: A GitHub Action that uses OpenAI ChatGPT to review code in pull request.
 inputs:
   PROGRAMMING_LANGUAGE:
