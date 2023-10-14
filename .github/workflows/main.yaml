@@ -10,7 +10,7 @@ jobs:
   code-review:
     if: |
       github.event_name == 'pull_request' ||
-        (github.event.comment.user.login == 'manjunathsb10' &&
+        (github.event.comment.user.login == 'manjunathsb100' &&
           startsWith(github.event.comment.body, 'chatgpt'))
     runs-on: ubuntu-latest
     steps:
